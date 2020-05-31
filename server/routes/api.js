@@ -49,4 +49,89 @@ router.post('/login',(req, res) =>{
     
 })
 
+router.get('/events', (req,res)=> {
+    let events = [
+        {
+            "_id":"1",
+            "name":"Auto Expo",
+            "description":"lorem ipsum",
+            "date":"2012-04-23T18:25:43.511z"
+        },
+        {
+            "_id":"1",
+            "name":"Auto Expo",
+            "description":"lorem ipsum",
+            "date":"2012-04-23T18:25:43.511z"
+        },
+        {
+            "_id":"1",
+            "name":"Auto Expo",
+            "description":"lorem ipsum",
+            "date":"2012-04-23T18:25:43.511z"
+        },
+        {
+            "_id":"1",
+            "name":"Auto Expo",
+            "description":"lorem ipsum",
+            "date":"2012-04-23T18:25:43.511z"
+        },
+        {
+            "_id":"1",
+            "name":"Auto Expo",
+            "description":"lorem ipsum",
+            "date":"2012-04-23T18:25:43.511z"
+        },
+        {
+            "_id":"1",
+            "name":"Auto Expo",
+            "description":"lorem ipsum",
+            "date":"2012-04-23T18:25:43.511z"
+        }
+        
+    ]
+    res.json(events)
+})
+router.get('/special', (req,res)=> {
+    let events = [
+        {
+            "_id":"1",
+            "name":"Auto Expo",
+            "description":"lorem ipsum",
+            "date":"2012-04-23T18:25:43.511z"
+        },
+        {
+            "_id":"1",
+            "name":"Auto Expo",
+            "description":"lorem ipsum",
+            "date":"2012-04-23T18:25:43.511z"
+        },
+        {
+            "_id":"1",
+            "name":"Auto Expo",
+            "description":"lorem ipsum",
+            "date":"2012-04-23T18:25:43.511z"
+        },
+        {
+            "_id":"1",
+            "name":"Auto Expo",
+            "description":"lorem ipsum",
+            "date":"2012-04-23T18:25:43.511z"
+        },
+        {
+            "_id":"1",
+            "name":"Auto Expo",
+            "description":"lorem ipsum",
+            "date":"2012-04-23T18:25:43.511z"
+        },
+        {
+            "_id":"1",
+            "name":"Auto Expo",
+            "description":"lorem ipsum",
+            "date":"2012-04-23T18:25:43.511z"
+        }
+        
+    ]
+    res.json(events)
+})
+
 module.exports = router
